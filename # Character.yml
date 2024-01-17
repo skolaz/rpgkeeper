@@ -1,0 +1,440 @@
+# character
+
+- name
+- ability scores
+  - strength
+    if (strenght 3) {
+      bonus to hit -3
+      bonus to damage -1
+      encumbrance adjustment -35
+      minor tests 1
+      major tests 0};
+   else if (strenght 4-5) }
+      bonus to hit -2
+      bonus to damage -1
+      encumbrance adjustment -25
+      minor tests 1
+      minor tests 0
+    if (strenght 6-7) }
+      bonus to hit -1
+      bonus to damage 0
+      encumbrance adjustment -15
+      minor tests 1
+      major tests 0
+    if (strenght 8-9) }
+      minor tests 1-2
+      major tests 1
+    if (strenght 10-11) }
+      minor tests 1-2
+      major tests 2
+    if (strenght 12-13) }
+      encumbrance adjustment +10
+      minor tests 1-2
+      major tests 4
+    if (strenght 14-15) }
+      encumbrance adjustment +20 
+      minor tests 1-2
+      major tests 7
+    if (strenght 16) }
+      bonus to damage +1
+      encumbrance adjustment +35
+      minor tests 1-3
+      major tests 10
+    if (strenght 17) }
+      bonus to hit +1
+      bonus to damage +1
+      encumbrance adjustment +50
+      minor tests 1-3
+      major tests 13
+    if (strenght 18) }
+      bonus to hit +1
+      bonus to damage +2
+      encumbrance adjustment +75
+      minor tests 1-3
+      major tests 16
+    if (strenght 18.01-18.50) }
+      bonus to hit +1
+      bonus to damage +3
+      encumbrance adjustment +100
+      minor tests 1-3
+      major tests 20
+    if (strenght 18.51-18.75) }
+      bonus to hit +2
+      bonus to damage +3
+      encumbrance adjustment +125
+      minor tests 1-4
+      major tests 25
+    if (strenght 18.76-18.90) }
+      bonus to hit +2
+      bonus to damage +4
+      encumbrance adjustment +150
+      minor tests 1-4
+      major tests 30
+    if (strenght 18.91-18.99) }
+      bonus to hit +2
+      bonus to damage +5
+      encumbrance adjustment +200
+      minor tests 1-4
+      major tests 35
+    if (strenght 19) }
+      bonus to hit +3
+      bonus to damage +6
+      encumbrance adjustment +300
+      minor tests 1-5
+      major tests 40
+  - dexterity
+  - constitution
+  - intelligence
+  - wisdom
+  - charisma
+- race
+  -
+- class
+  -
+- alignment
+  - lawful good "crusader"
+  - lawful neutral "judge"
+  - lawful evil "dominator"
+  - neutral good "benefactor"
+  - neutral neutral
+  - neutral evil "malefactor"
+  - chaotic good "rebel"
+  - chaotic neutral "free spirit"
+  - chaotic evil "destroyer"
+- level
+- experience
+- optional
+  - deity served
+  - gender
+  - hair
+  - eyes
+  - height
+  - weight
+- saves
+  - aimed magic items
+  - breath weapons
+  - death, paralyze, poison
+  - petrify, polymorph
+  - spells
+- hit points
+  - current
+  - max
+- vision
+- thaco
+- equipment
+   - weapon
+    - #att??
+    - to hit
+    - damage adjustment
+    - damage vs s or m
+    - damage vs l
+    - range
+    - rate of fire
+  - armour
+    - armour
+      - ac
+    - shield
+      - ac
+    - gloves/rings
+      - ac
+    - bracers
+      - ac
+    - boots
+      - ac
+    - cloak
+      - ac
+  - magic items
+  - other
+- if class (cleric)
+  - cleric turn undead table by type
+- if class (thief)
+  - climb walls
+  - find traps
+  - hear noise
+  - hide in shadows
+  - move quietly
+  - open locks
+  - pick pockets
+  - read languages
+- money
+  - copper
+  - silver
+  - electrum
+  - gold
+  - platinum
+- spell book
+  - spells per level #number of spells availabe for each spell level. linked to class table. exclusivly for cleric, druid, illusionist, paladin, ranger and magic user
+    - 1st
+    - 2nd
+    - 3rd
+    - 4th
+    - 5th
+    - 6th
+    - 7th
+    - 8th
+    - 9th
+  - name
+  - level
+  - duration
+  - range
+  - effect
+  - page found
+
+# race dwarfs
+
+- name
+- abilities #everything available
+  - +1 constitution, -1 charisma (with respect to all but dwarfs)
+  - +1 'to hit' against goblins, half-orcs, hobgoblins, and orcs
+  - +1 bonus per 3.5 points of con to saves against magic
+  - -4 penalty to any attacks made against the dwarf by giants, ogres, ogre mages, titans and trolls
+  - detect facts concerning engineering, stonework etc.
+    - detect the existence of slopes or grades: 75%
+    - detect the existence of new construction: 75%
+    - detect sliding or shifting rooms or walls: 66%
+    - detect traps involving stonework: 50%
+    - determine depth underground: 50%
+- vision
+  - infravision 60-ft
+- movement
+  - 90-ft
+- languages
+  - dwarfish, gnomish, goblin, kobold, orchish, common, alignment tongue
+- racial limitation #if not between these numbers, character may not be this race
+  - strength 8/18
+  - dexterity 3/17
+  - constitution 12/19
+  - intelligence 3/18
+  - wisdom 3/18
+  - charisma 3/16
+- permitted classes
+  - assasin max level 9
+  - cleric max level 8
+  - fighter max level 9 (strenght 18), max level 8 (strenght 17), max level 7 (strenght 16 or less)
+  - thief unlimited
+- multiclass restrictions
+  - the more restrictive of any two class requirements apply to multi-classed dwarfish characters for the use of class abilities.
+  - fighter/thief
+- starting age
+  - cleric 250+2d20
+  - fighter 40+5d4
+  - thief 75+3d6
+
+# race elves
+
+- name
+- abilities #everything available
+  - +1 dexterity, -1 constitution
+  - 90% resistance to sleep and charm spells
+  - any pulled bow: +1 "to hit"
+  - longsword and short sword: +1 "to hit"
+  - detect secret doors
+  - suprise
+- vision
+  - infravision 60-ft
+- movement
+  - 120-ft
+- languages
+  - common, elven, gnoll, gnomish, goblin, halfling, hobgoblin, orcish
+- racial limitation #if not between these numbers, character may not be this race
+  - strength 3/18
+  - dexterity 7/19
+  - constitution 8/17
+  - intelligence 8/18
+  - wisdom 3/18
+  - charisma 8/18
+- permitted classes
+  - assasin max level 10
+  - cleric max level 7
+  - fighter max level 7 (strenght 18), max level 6 (strenght 17), max level 5 (strenght 16 or less)
+  - magic user max level 11 (intelligens 18 or more), max level 10 (intelligens 17), max level 9 (intelligens 16 or less)
+  - thief unlimited
+- multiclass restrictions
+  - the less restrictive of any two class requirements apply to multi-classed elven characters, except that thieving abilities can only be used while wearing armour permitted to thieves.
+  - fighter/magic user, fighter/thief, magic user/thief, fighter/ magic user/thief.
+- starting age
+  - cleric 500+10d10
+  - fighter 130+5d6
+  - magic user 150+5d6
+  - thief 100+5d6
+
+# race gnomes
+
+- name
+- abilities #everything available
+  - +1 bonus per 3.5 points of con to saves against magic and poison
+  - +1 "to hit" kobolds and goblins
+  - -4 to attack rolls by bugbears, giants, gnolls, ogres, ogre mages, titans, and trolls.
+  - detect certain facts concerning engineerin, stonework etc.
+    - detect the existence of slopes or grades: 80%
+    - detect the existence of unsafe wall, ceiling, floor: 70%
+    - determine depth underground: 60%
+    - determine direction of north underground: 50%
+- vision
+  - infravision 60-ft
+- movement
+  - 90-ft
+- languages
+  - common, dwarfish, gnomish, goblin, halfling, kobold, any normal burrowing animal
+- racial limitation #if not between these numbers, character may not be this race
+  - strength 6/18
+  - dexterity 3/18
+  - constitution 8/18
+  - intelligence 7/18
+  - wisdom 3/18
+  - charisma 3/18
+- permitted classes
+  - assasin max level 8
+  - cleric max level 7
+  - fighter max level 6 (strenght 18), max level 5 (strenght 17 or less)
+  - illusionist max level 7 (one of dex or intelligens 18+ and the other 17+), max level 6 (dex and intelligens 17), max level 5(dex and intelligens 16 or less)
+  - thief unlimited
+- multiclass restrictions
+  - only leather armour, no better
+  - fighter/illusionist, fighter/thief, illusionist/thief.
+- starting age
+  - cleric 300+3d12
+  - fighter 60+5d4
+  - magic user 100+2d12
+  - thief 80+5d4
+
+# race half elves
+
+- name
+- abilities #everything available
+  - 30% resistance to sleep and charm spells
+  - secret doors: 1-2 on 2d6 detect secret doors. concealed doors show on 1-3 on d6. when passing within 10-ft of a concealed door, a half-elf will notice it on a 1 in 6.
+- vision
+  - infravision 60-ft
+- movement
+  - 120-ft
+- languages
+  - common, elven, gnoll, gnome, goblin, halfling, hobgoblin, orcish
+- racial limitation #if not between these numbers, character may not be this race
+  - strength 6/18
+  - dexterity 3/18
+  - constitution 8/18
+  - intelligence 7/18
+  - wisdom 3/18
+  - charisma 3/18
+- permitted classes
+  - assasin max level 8
+  - cleric max level 5
+  - fighter max level 8 (strenght 18), max level 7 (strenght 17 or less), max level 6 (strenght 16 or less)
+  - magic user max level 8 (intelligens 18+), max level 7 (intelligens 17), max level 6 (intelligens 16 or less)
+  - ranger max level 8 (strenght 18), max level 7 (strenght 17 or less), max level 6 (strenght 16 or less)
+  - thief unlimited
+- multiclass restrictions
+  - the less restrictive of any class requirements apply to multi-classed half-elven characters, except that thieving abilities can only be used while wearing armour permitted to thieves.
+  - cleric/fighter, cleric/ranger, cleric/magic user, fighter/magic user, fighter/thief, magic user/thief, cleric/fighter/ magic user, or fighter/magic user/thief.
+- starting age
+  - cleric 40+2d4
+  - fighter 22+3d4
+  - magic user 30+2d8
+  - thief 22+3d8
+
+# race halflings
+
+- name
+- abilities #everything available
+  - -1 str, +1 dex
+  - +1 bonus per 3.5 points of con to saves against magic (both aimed magic items and spells) and poison.
+  - +3 bonus to attacks with a bow or sling
+  - suprise
+- vision
+  - infravision 60-ft
+- movement
+  - 90-ft
+- languages
+  - common, dwarfish, gnome, goblin, halfling and orcish
+- racial limitation #if not between these numbers, character may not be this race
+  - strength 6/17
+  - dexterity 8/19
+  - constitution 10/18
+  - intelligence 6/18
+  - wisdom 3/17
+  - charisma 3/18
+- permitted classes
+  - druid max level 6
+  - fighter max level 4
+  - thief unlimited
+- multiclass restrictions
+  - use of thieving abilities is only possible when wearing armour permitted to thieves.
+  - fighter/thief.
+- starting age
+  - fighter 20+3d4
+  - druid 40+3d4
+  - thief 40+2d4
+
+# race half orcs
+
+- name
+- abilities #everything available
+  - +1 str and con, -2 cha
+- vision
+  - infravision 60-ft
+- movement
+  - 120-ft
+- languages
+  - common, orcish
+- racial limitation #if not between these numbers, character may not be this race
+  - strength 6/18
+  - dexterity 3/17
+  - constitution 13/19
+  - intelligence 3/17
+  - wisdom 3/14
+  - charisma 3/12
+- permitted classes
+  - assasin max level 15
+  - cleric max level 4
+  - fighter max level 10
+  - thief max level 7 (dex 17), max level 6 (dex 16 or less)
+- multiclass restrictions
+  - for armour, the more restrictive of any two class requirements apply to multi-classed half orc characters for the use of class abilities. for weapons, the less restrictive requirements apply.
+  - cleric/fighter, cleric/thief, cleric/assassin, fighter/thief, fighter/ assassin.
+- starting age
+  - cleric 20+1d4
+  - fighter 13+1d4
+  - thief 20+2d4
+
+# race humans
+
+- name
+- abilities
+  - 
+- vision
+  - 
+- movement
+  - 120-ft
+- languages
+  - Common
+- racial limitation #if not between these numbers, character may not be this race
+  - 
+- permitted classes
+  - assassin max level 15
+  - cleric unlimited
+  - druid max level 14
+  - fighter unlimited
+  - illusionist unlimited
+  - magic user unlimited
+  - paladin unlimited
+  - ranger unlimited
+  - thief unlimited
+- multiclass restrictions
+  -
+- starting age
+  - cleric 20+1d4
+  - fighter 15+1d4
+  - mage 24+2d8
+  - thief 20+1d4
+
+# class
+- assasin
+- cleric
+- druid
+- fighter
+- illusionist
+- magic user
+- paladin
+- ranger
+- thief
